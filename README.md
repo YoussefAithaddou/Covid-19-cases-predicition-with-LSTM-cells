@@ -49,6 +49,6 @@ Number of cases in the world, Canada and the United States.
 * Model results: MSE =  106.181.
 * Mean error reduction: 14 %
 
-![image 3](https://github.com/YoussefAithaddou/Covid-19-cases-predicition-with-LSTM-cells/blob/main/Final_result.png)
+![image 4](https://github.com/YoussefAithaddou/Covid-19-cases-predicition-with-LSTM-cells/blob/main/Final_result.png)
 
 
