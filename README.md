@@ -28,8 +28,8 @@ Number of cases in the world, Canada and the United States.
 
 ![image 1](https://github.com/YoussefAithaddou/Covid-19-cases-predicition-with-LSTM-cells/blob/main/Initial_model.PNG)
 
-* Model results: MSE =  123.324.
-* Relative Absolute Error (RAE): 0.674 %
+* Model results: RMSE =  123.324.
+
 
 ![image 2](https://github.com/YoussefAithaddou/Covid-19-cases-predicition-with-LSTM-cells/blob/main/Initial_result.png)
 
@@ -47,7 +47,8 @@ Number of cases in the world, Canada and the United States.
 
 ![image 3](https://github.com/YoussefAithaddou/Covid-19-cases-predicition-with-LSTM-cells/blob/main/Final_model.PNG)
 
-* Model results: MSE =  106.181.
+* Model results: RMSE =  106.181.
+* Relative Absolute Error (RAE): 0.674 %
 * Mean error reduction: 14 %
 
 ![image 4](https://github.com/YoussefAithaddou/Covid-19-cases-predicition-with-LSTM-cells/blob/main/Final_result.png)
