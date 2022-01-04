@@ -8,7 +8,7 @@ Number of cases in the world, Canada and the United States.
 * Created custom tensors from the pictures using Pytorch (250 batches of 16 tensors).
 * Built initial RNN model (2 LSTMs of 64 units) to forecast the number of coronavirus cases, achieved MSE =  123.324.
 * Performed model optimization with Tensorboard using 36 combination of LSTM and Dense layers.
-* Built final RNN model (1 LSTMs of 128 units, 1 Dropout (20%), 1 Flatten and 1 Dense layer) with MSE = 106.181 (Mean error reduction = 14 %).
+* Built final model (1 LSTMs of 128 units, 1 Dropout (20%), 1 Flatten and 1 Dense layer) with MSE = 106.181 (Mean error reduction = 14 %).
 
 
 # Resources Used
