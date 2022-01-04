@@ -24,9 +24,12 @@ Number of cases in the world, Canada and the United States.
 * Split and reshaped training and testing sets to be used in the Deep Neural networks.
 
 # Initial model:
-* 2 LSTMs of 64 units:
-
+* Model architecture: 2 LSTMs of 64 units.
 ![image 1](https://github.com/YoussefAithaddou/Covid-19-cases-predicition-with-LSTM-cells/blob/main/Initial_model.PNG)
+
+* Model results: MSE =  123.324.
+![image 2](https://github.com/YoussefAithaddou/Covid-19-cases-predicition-with-LSTM-cells/blob/main/Initial_result.png)
+
 
 ###### Model layers:
 * 2x CNNs
