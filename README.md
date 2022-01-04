@@ -4,11 +4,11 @@ A deep learning project based on Recurrent neural networks in order to predict t
 Since Canada has borders with only one country, The united states of america, we decided to take into consideration 3 variables:
 Number of cases in the world, Canada and the United States.
 
-* Uploaded and resized +4000 frames of videos from personal travels using OS and openCV.
+* Uploaded and prepared Covid-19 Data.
 * Created custom tensors from the pictures using Pytorch (250 batches of 16 tensors).
-* Built a deep neural network (2 CNN and 3 Linear) to identify the location images.
-* Achieved 98.31% accuracy on training set and 96.5% on testing set.
-* Visualized a batch of testing data with Matplotlib and Mathematical methods.
+* Built initial RNN model (2 LSTMs of 64 units) to forecast the number of coronavirus cases, achieved MSE =  123.324.
+* Performed model optimization with Tensorboard using 36 combination of LSTM and Dense layers.
+* Built final RNN model (1 LSTMs of 128 units, 1 Dropout (20%), 1 Flatten and 1 Dense layer) with MSE = 106.181 (Mean error reduction = 14 %).
 
 
 # Resources Used
