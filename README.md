@@ -48,7 +48,7 @@ Number of cases in the world, Canada and the United States.
 ![image 3](https://github.com/YoussefAithaddou/Covid-19-cases-predicition-with-LSTM-cells/blob/main/Final_model.PNG)
 
 * Model results: RMSE =  106.181.
-* Relative Absolute Error (RAE): 24.95 %
+* Relative Absolute Error (RAE): 4.1 %
 * Mean error reduction: 14 %
 
 ![image 4](https://github.com/YoussefAithaddou/Covid-19-cases-predicition-with-LSTM-cells/blob/main/Final_result.png)
