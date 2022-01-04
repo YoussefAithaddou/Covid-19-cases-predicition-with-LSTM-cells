@@ -34,7 +34,7 @@ Number of cases in the world, Canada and the United States.
 
 
 # Model optimization with Tensorboard:
-* Trying 4*3*3=36 different combinations of LSTM cells and dense layers and 4*5 =20 combinations of batch sizes and epochs:
+* Trying 4x3x3=36 different combinations of LSTM cells and dense layers and 4x5 =20 combinations of batch sizes and epochs:
 * Dense layers: 0, 1, 2, 3.
 * Number of units: 32, 64, 128.
 * LSTM cells: 1, 2, 3.
