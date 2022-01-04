@@ -25,9 +25,11 @@ Number of cases in the world, Canada and the United States.
 
 # Initial model:
 * Model architecture: 2 LSTMs of 64 units.
+* 
 ![image 1](https://github.com/YoussefAithaddou/Covid-19-cases-predicition-with-LSTM-cells/blob/main/Initial_model.PNG)
 
 * Model results: MSE =  123.324.
+* 
 ![image 2](https://github.com/YoussefAithaddou/Covid-19-cases-predicition-with-LSTM-cells/blob/main/Initial_result.png)
 
 
