@@ -33,19 +33,19 @@ Number of cases in the world, Canada and the United States.
 ![image 2](https://github.com/YoussefAithaddou/Covid-19-cases-predicition-with-LSTM-cells/blob/main/Initial_result.png)
 
 
-###### Model layers:
-* 2x CNNs
-* 2x Pooling layers
-* 3x Linear neurons
-###### Hyper parameters:
-* Batch size: 16
-* Epochs: 3
-# Model Evaluation:
-* Accuracy on training set is 98.28 %
-* Accuracy on testing set is 93.50 %
-# Sample visualization:
-* I used a batch of test data (4 images from each location) to asses how the model predict the location of each frame:
+# Model optimization with Tensorboard:
+* Trying 4*3*3=36 different combinations of LSTM cells and dense layers and 4*5 =20 combinations of batch sizes and epochs:
+* Dense layers: 0, 1, 2, 3.
+* Number of units: 32, 64, 128.
+* LSTM cells: 1, 2, 3.
+* Batches: 8, 16, 32, 64.
+* Epochs: 20, 40, 60,80,100.
 
-![image 2](https://github.com/YoussefAithaddou/CNN-to-predict-locations-of-my-previous-trips/blob/main/result%20sample.png)
+# Final model:
+* Model architecture: 1 LSTMs of 128 units, 1 Dropout (20%), 1 Flatten and 1 Dense layer .
 
-* This model achieved a high accuracy rate with a small training sets due to the fact that all pictures are relatively similar to each other (frames of the same video). In this particular sample, the model manages to accurately identify each location the frames belong to. That is, on average we can accurately identify pictures at a ratio of 14.96 frames in each batch of 16.
+![image 3](https://github.com/YoussefAithaddou/Covid-19-cases-predicition-with-LSTM-cells/blob/main/Final_model.PNG)
+
+* Model results: MSE =  106.181.
+* Mean error reduction: 14 %
+
